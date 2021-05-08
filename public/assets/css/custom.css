@@ -1,0 +1,210 @@
+.what_we_area .construction_iner .construction .cns-img img {
+    width: 360px;
+    height: 200px;
+}
+.what_we_area .construction_iner {
+    padding-bottom: 0px;
+}
+.header_aera .navbar-header .navbar-brand {
+    padding-top: 15px; 
+}
+
+.portfolio .col-md-offset-2{
+    margin-left: 12%;
+}
+.header-logo{
+    width: 133px;
+}
+.offer-types{
+    padding-top: 5% !important;
+    padding-bottom: 1%;
+}
+.offer-types-inner{
+    padding-bottom: 4%;
+}
+.blog_tow_area .blog_tow_row .renovation img {
+    height: 200px;
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    padding-top: 230px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1012px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.featured_gallery img{
+    height: 200px;
+    width: 100%;
+}
+
+.contact_row .send_message .contact_box .input_box {
+    color: #696767 !important;
+}
+.contact_row .send_message .contact_box .input_box::placeholder {
+    color: #8e8e8e !important;
+}
+.portfolio .tittle{
+    text-align: left;
+    color: #FFF;
+}
+
+.slider_area .slider_inner .camera_caption div h5{
+    font: 600 55px "Roboto", sans-serif;
+}
+
+.slider_area .slider_inner .camera_caption div h3{
+    font: 600 35px "Roboto", sans-serif;
+}
+.slider_area .slider_inner .camera_caption div p{
+    font: 600 25px/40px "Roboto", sans-serif;
+}
+
+.featured_works .featured_gallery .gallery_iner .gallery_hover h4{
+    text-transform: none;
+    padding-bottom: 0px;
+    font: 700 25px "Roboto", sans-serif;
+}
+
+.featured_works .featured_gallery .gallery_iner .gallery_hover.gallery_hover-proccess h4 {
+    font: 700 15px "Roboto", sans-serif;
+}
+
+.building_construction_area .building_construction_row .constructing_laft img{
+    max-width: 80%;
+}
+
+.panel.panel-default.accordion-toggle.collapsed,
+.panel-group .panel+.panel{
+    cursor: pointer;
+}
+.anyquestion{
+    padding: 20px 0 20px 0px;
+}
+.portfolio .img-portfolio img{
+    width: 88%;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #f6b60b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+    .header-logo{
+        width: 85px;
+    }
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 776px){
+    .header-logo{
+        width: 85px;
+    }
+    .slider_area .slider_inner .camera_caption div h5 {
+        font: 600 30px "Roboto", sans-serif;
+    }
+    .slider_area .slider_inner .camera_caption div h3 {
+        font: 600 25px "Roboto", sans-serif;
+    }
+    .slider_area .slider_inner .camera_caption div p {
+        font: 600 15px/30px "Roboto", sans-serif;
+    }
+    .areal-take-off{
+        font-size: 15px;
+        text-align: center;
+    }
+    .featured_gallery img {
+        height: 120px;
+    }
+    .offer-types{
+        padding-top: 14% !important;
+    }
+    .offer-types-inner{
+        margin-top: 20px;   
+    }
+    .blog_tow_area .blog_tow_row .renovation img{
+        width: 300px;
+    }
+    .portfolio .img-portfolio{
+        margin-left: 5%;
+    }
+    .doc-sec a{
+        float: left;
+        width: 100px;
+    }
+    .constructing_right{
+        float: left;
+        width: 100%;
+    }
+    .building_construction_area .building_construction_row .constructing_laft img{
+        max-width: 100%;
+    }
+    .building_construction_area .building_construction_row .constructing_laft .bridge-doc{
+        max-width: 20%;
+    }
+    .portfolio .tittle {
+        font-size: 20px;
+    }
+}
+
